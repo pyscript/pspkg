@@ -128,6 +128,9 @@ local dependencies like this:
 pip install -e .[dev]
 ```
 
+We have a simple Makefile to automate common local development tasks. Please
+read it to learn more. 
+
 Many thanks for wanting to improve the project.
 
 Contributions are welcome without prejudice from *anyone* irrespective of
