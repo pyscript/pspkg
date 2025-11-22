@@ -136,7 +136,7 @@ especially mean YOU*. Good quality code and engagement with respect, humour
 and intelligence wins every time.
 
 We expect contributors to follow the spirit of our statement on the
-[care of community](care_of_community.md).
+care of community (CARE_OF_COMMUNITY.md) file found within this repository.
 
 Feedback may be given for contributions and, where necessary, changes will
 be politely requested and discussed with the originating author. Respectful
@@ -145,9 +145,9 @@ yet robust argument is most welcome.
 **Contributions are subject to the following caveats**: the contribution
 was created by the contributor who, by submitting the contribution, is
 confirming that they have the authority to submit the contribution and
-place it under the license as defined in the [LICENSE](license.md) file found
+place it under the license as defined in the license (LICENSE.md) file found
 within this repository. If this is a significant contribution
-the contributor should add themselves to the AUTHORS file found in the
+the contributor should add themselves to the AUTHORS.md file found in the
 root of this repository. Contributors agree, for the sake of convenience,
 that copyright passes exclusively to Anaconda Inc. on behalf of the
 project.
