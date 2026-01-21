@@ -5,7 +5,7 @@
 This is a deliberately simple module and command line tool for discovering the
 compatibility of packages in PyPI with [PyScript](https://pyscript.net/).
 It's a shim around the static API provided by the
-[PyScript Packages](https://pyscript.github.io/pyscript-packages/) website.
+[PyScript Packages](https://packages.pyscript.net/) website.
 
 Why?
 
@@ -108,7 +108,7 @@ Given the example package list, the following states exist:
 
 * `numpy` - known to be supported by PyScript. The `info` dict will contain
   information conforming to the metadata specified by the
-  [PyScript packages API](https://pyscript.github.io/pyscript-packages/help/#api).
+  [PyScript packages API](https://packages.pyscript.net/help/#api).
 * `dogpt` - unknown PyScript support. But
   [metadata from PyPI](https://docs.pypi.org/api/json/) indicates this is a
   pure Python package, so *could work* (pending user validation). The `info`

@@ -35,7 +35,7 @@ import requests
 import json
 from typing import Dict, List
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "refresh",
@@ -57,7 +57,7 @@ def _refresh_supported_packages() -> Dict:
     API.
     """
     response = requests.get(
-        "https://pyscript.github.io/pyscript-packages/api/all.json"
+        "https://packages.pyscript.net/api/all.json"
     )
     response.raise_for_status()
     return response.json()
